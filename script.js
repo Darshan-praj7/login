@@ -28,7 +28,7 @@ function validateForm(event) {
 
     // Validate Phone Number (must be a 10-digit number and not '1234567890')
     if (phone.length !== 10 || phone === '1234567890' || isNaN(phone)) {
-        showError('phonenoError', 'Enter a valid 10-digit Phone Number');
+        showError('phoneError', 'Enter a valid 10-digit Phone Number');
         isValid = false;
     }
 
